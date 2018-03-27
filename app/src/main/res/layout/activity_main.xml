@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.example.com.myportfolio.MainActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="375dp"
+        android:layout_height="150dp"
+        app:cardElevation="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="@color/colorWebsiteTab" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/dev_name"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alfa_slab_one"
+                android:textSize="29sp"
+                android:textColor="@android:color/white"
+                android:text="Benedetto Lo Giudice" />
+            <TextView
+                android:layout_marginTop="7dp"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wannabe Android Developer"
+                android:layout_below="@id/dev_name"
+                android:id="@+id/dev_title" />
+
+
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
