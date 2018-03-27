@@ -13,6 +13,7 @@
         app:cardElevation="15dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="15dp"
         app:cardBackgroundColor="@color/colorWebsiteTab" >
 
 
@@ -27,12 +28,12 @@
                 android:layout_marginTop="7dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/alfa_slab_one"
-                android:textSize="29sp"
+                android:textSize="20sp"
                 android:textColor="@android:color/white"
                 android:text="Benedetto Lo Giudice" />
             <TextView
                 android:layout_marginTop="7dp"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 android:textColor="@android:color/white"
                 android:textStyle="italic"
                 android:layout_width="wrap_content"
@@ -47,15 +48,19 @@
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
                 android:src="@drawable/myphoto01"
                 app:civ_border_width="2dp"
                 android:layout_marginRight="2dp"
                 android:layout_marginBottom="2dp"
                 app:civ_border_color="@color/colorAccent"/>
-
-
-
         </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="5dp"
+        android:layout_marginTop="130dp">
     </android.support.v7.widget.CardView>
 </RelativeLayout>
