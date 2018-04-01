@@ -34,4 +34,15 @@ public class DevPagerAdapter extends FragmentPagerAdapter {
         // hard coding number of fragments for the time being
         return 4;
     }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        switch(position) {
+            case 0: return "ABOUT";
+            case 1: return "WORK";
+            case 2: return "SKILLS";
+            case 3: return "CONTACT";
+        }
+        return null;
+    }
 }
