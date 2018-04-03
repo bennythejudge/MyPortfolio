@@ -27,7 +27,10 @@ public class MainActivity extends AppCompatActivity {
         getInTouch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String dial = "tel: " + Resources.getSystem().getString(R.string.phoneNo);
+                Log.d("onclicklistener", "before it gets messy");
+                // here you got errors because you did not use the app context.
+                // String pippo = getResources().getString(R.string.phoneNo);
+                String dial = "tel: " + getResources().getString(R.string.phoneNo);
                 Log.d("onclicklistener", "dial string: " + String.valueOf(dial));
                 startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(dial)));
             }
