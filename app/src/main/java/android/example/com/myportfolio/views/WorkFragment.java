@@ -28,5 +28,4 @@ public class WorkFragment extends Fragment {
         View workView = inflater.inflate(R.layout.fragment_work, container, false);
         return workView;
     }
-
 }

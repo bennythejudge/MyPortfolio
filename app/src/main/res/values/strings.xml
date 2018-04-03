@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">My Portfolio</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_me">Hi, my name is BLG and I am a real loser, I am good at nothing.\nI go to sleep late.\nI mostly waste my time chasing an impossible dream: working as a developer!</string>
+
+    <string name="skills">Nothing, nothing and more nothing. Maybe a bit of Linux? Who knows...</string>
+
+    <string name="work">I have wasted my life away doing a lot of useless stuff some of which you can find in my GitHub account.\n\n1. The idiotic London Tube Departure Board (LOL!)\n\n2.The pathethic collection of Terraform stuff!\n\n3.It all amounts to a big pile of nothing!</string>
+
+    <string name="contact">Don\'t waste you time trying to contact me. Why would you do that anyway?</string>
+
+    <string name="phoneNo">00334455667788</string>
 </resources>

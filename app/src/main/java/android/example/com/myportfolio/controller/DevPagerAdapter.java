@@ -22,9 +22,9 @@ public class DevPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch(position) {
             case 0: return new AboutFragment();
-            case 1: return new ContactFragment();
+            case 1: return new WorkFragment();
             case 2: return new SkillsFragment();
-            case 3: return new WorkFragment();
+            case 3: return new ContactFragment();
         }
         return null;
     }
